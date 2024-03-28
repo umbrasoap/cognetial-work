@@ -8,7 +8,7 @@
 
     def __add__(self, other):
         return str(self) + other
-
+#yes
     def __radd__(self, other):
         return other + str(self)
 
